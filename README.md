@@ -1,6 +1,6 @@
-# covid19app
+# covid19 App
 
-Covid-19 app Open source
+Covid-19 Open source App
 
 
 

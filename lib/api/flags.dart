@@ -10,7 +10,7 @@ List flags;
 
 Future<String> fetchFlags() async {
 
-  final response =  await http.get(Uri.encodeFull("https://corona.lmao.ninja/countries"),
+  final response =  await http.get(Uri.encodeFull("https://corona.lmao.ninja/v2/countries"),
       headers: {
         "Accept" : "application/json",
 

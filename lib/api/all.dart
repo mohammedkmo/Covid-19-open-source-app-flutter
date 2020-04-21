@@ -20,7 +20,7 @@ class AllCases {
 }
 
 Future<AllCases> fetchCases() async {
-  final response = await http.get('https://corona.lmao.ninja/all');
+  final response = await http.get('https://corona.lmao.ninja/v2/all');
 
   if (response.statusCode == 200) {
     // If the server did return a 200 OK response,

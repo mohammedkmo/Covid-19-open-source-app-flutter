@@ -9,7 +9,7 @@ String by;
 
 Future<String> fetchBy() async {
 
-  final response =  await http.get(Uri.encodeFull("https://corona.lmao.ninja/countries?sort=$by"),
+  final response =  await http.get(Uri.encodeFull("https://corona.lmao.ninja/v2/countries?sort=$by"),
       headers: {
         "Accept" : "application/json",
 
